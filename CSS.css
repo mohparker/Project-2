@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: #001F5A
+}
+
+body {
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #FFFFfF;
+    /* title and ''already have an account'' color*/
+}
+
+.wrapper {
+    padding: 50px 25px 0;
+    max-width: 668px;
+    width: 100%;
+    margin: auto;
+}
+
+.wrapper .headline {
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+.wrapper .sign-up {
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+.wrapper .headline h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 52px;
+}
+
+.wrapper .form {
+    max-width: 350px;
+    width: 100%;
+    margin: auto;
+}
+
+.wrapper .form-group {
+    margin-bottom: 15px;
+}
+
+.wrapper .form-group input {
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    padding: 11px 15px;
+    height: 48px;
+    border-radius: 100px;
+    color: #FFfFFF;
+    border: 3px solid #e4e8ee;
+    width: 100%;
+}
+
+.wrapper .form-group input:focus {
+    outline: none;
+}
+
+.wrapper .form-group input::placeholder {
+    color: #FFfFFF;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.wrapper .btn {
+    width: 100%;
+    margin: 15px 0 30px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 700;
+    padding: 12px 29px;
+    height: 48px;
+    text-transform: uppercase;
+    color: #FFfFFF;
+    background-color: #2EA74E;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.wrapper .btn:focus {
+    outline: none;
+}
+
+.wrapper .account-exist {
+    color: #FFfFFF;
+    border-top: 1px solid #FFFFFF;
+    text-align: center;
+}
+
+.wrapper .account-exist a {
+    color: #2EA74E;
+}
+
+.wrapper .forget-password {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.wrapper .forget-password a {
+    color: #2EA74E;
+}
+
+.wrapper .forget-password .check-box {
+    font-size: 15px;
+    color: #FFfFFF;
+}
+
+.signup.inActive {
+    display: none;
+}
+
+.signin {
+    display: none;
+}
+
+.signin.active {
+    display: block;
+}
+
+@media (max-width:1030px) {
+    .wrapper::before {
+        left: -25%;
+        min-height: 60vh;
+        height: 500px;
+    }
+}
+
+@media (max-width:76px) {
+    .wrapper {
+        max-width: 550px;
+    }
+    .wrapper .headline h1 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+}
