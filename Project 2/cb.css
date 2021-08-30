@@ -1,0 +1,36 @@
+﻿.rss_container {
+    margin: auto;
+    border-top: none;
+    border-bottom: none;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+.comment_box {
+    margin: 20px;
+    border: 10px;
+    padding: 10px;
+}
+
+cbox_container {
+    width: 300px;
+    border: 2px solid #333;
+    padding: 15px 10px;
+}
+
+.cbox_container h2 {
+    text-align: center;
+    margin-bottom: 15px
+}
+
+textarea {
+    height: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #aaa;
+    background-color: transparent;
+    margin-bottom: 10px;
+    resize: none;
+    outline: none;
+    transition: .5s
+}

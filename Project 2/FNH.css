@@ -130,12 +130,12 @@ header ul li a
     .sec{
         position:relative;
         padding:100px;
-        background:#1c0522;
+        background:#ffffff;
     }
 
 .sec h2 {
-   font-size: 3.5em;
-   margin-bottom:10px;
+   font-size: 20em;
+   margin-bottom:15px;
    color:#fff;
 }
 
@@ -143,3 +143,7 @@ header ul li a
   font-size: 1em;
   color: #fff;
         }
+
+.intro{
+    background:#fff;
+}
